@@ -1,0 +1,35 @@
+{
+  "name": "page-loader",
+  "version": "1.0.0",
+  "description": "page-loader",
+  "main": "bin/page-lodaer.js",
+  "type": "module",
+  "bin": {
+    "load-page": "bin/page-loader.js"
+  },
+  "scripts": {
+    "eslint": "eslint",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "@jest/globals": "^26.4.2",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.4.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KruglovDV/backend-project-lvl3.git"
+  },
+  "author": "KruglovDV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KruglovDV/backend-project-lvl3/issues"
+  },
+  "homepage": "https://github.com/KruglovDV/backend-project-lvl3#readme"
+}
