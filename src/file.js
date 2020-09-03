@@ -1,1 +1,1 @@
-export const fn = () => 'test value';
+export default () => 'test value';

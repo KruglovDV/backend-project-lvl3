@@ -1,3 +1,3 @@
-import { fn } from './file.js';
+import fn from './file.js';
 
-export const testFn = () => fn();
+export default () => fn();

@@ -13,4 +13,4 @@ lint:
 
 
 test:
-		npm test
+		npx eslint .
